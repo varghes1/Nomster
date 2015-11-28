@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'NexasRustExtras';
+    src: url('/assets/NexasRustExtras.eot'),
+         url('/assets/NexasRustExtras.woff') format('woff'),
+         url('/assets/NexasRustExtras.ttf') format('truetype'),
+         url('/assets/NexasRustExtras.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
