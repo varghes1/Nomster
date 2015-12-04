@@ -14,6 +14,9 @@ gem 'pg'
 # Use SCSS for stylesheets
 # gem 'sass-rails', '~> 4.0.2'
 
+#devise - user authentication
+gem 'devise', '>=3.2.4'
+
 #pagination
 gem 'kaminari'
 
