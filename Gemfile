@@ -17,6 +17,9 @@ gem 'pg'
 #devise - user authentication
 gem 'devise', '>=3.2.4'
 
+#geocoder - maps integration
+gem 'geocoder'
+
 #pagination
 gem 'kaminari'
 
