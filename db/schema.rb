@@ -17,11 +17,12 @@ ActiveRecord::Schema.define(version: 20151204033446) do
   enable_extension "plpgsql"
 
   create_table "places", force: true do |t|
-    t.string   "name",        limit: nil
+    t.string   "name"
     t.text     "description"
-    t.string   "address",     limit: nil
+    t.string   "address"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "user_id"
   end
 
   create_table "users", force: true do |t|
