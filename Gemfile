@@ -20,6 +20,9 @@ gem 'devise', '>=3.2.4'
 #geocoder - maps integration
 gem 'geocoder'
 
+#reading environment variables
+gem 'figaro', '>= 1.0.0'
+
 #pagination
 gem 'kaminari'
 

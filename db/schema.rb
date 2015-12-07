@@ -24,7 +24,7 @@ ActiveRecord::Schema.define(version: 20151206202659) do
     t.datetime "updated_at"
     t.integer  "user_id"
     t.float    "latitude"
-    t.float    "longitute"
+    t.float    "longitude"
   end
 
   create_table "users", force: true do |t|
