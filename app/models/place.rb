@@ -6,6 +6,8 @@ class Place < ActiveRecord::Base
 	validates :address, :presence => true
 	validates :description, :presence => true
 
+	has_many :comments
+
 
 
 
