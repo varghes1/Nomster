@@ -23,6 +23,12 @@ gem 'geocoder'
 #reading environment variables
 gem 'figaro', '>= 1.0.0'
 
+#Image Uploader
+gem 'carrierwave'
+
+#carrierwave to access amazon s3
+gem 'fog', '~> 1.3.1'
+
 #pagination
 gem 'kaminari'
 
