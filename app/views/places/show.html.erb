@@ -60,27 +60,13 @@
 
 </div>
 
-<div class="clear"></div>
-
-<div class="col-xs-10 col-xs-offset-1">
-
-
-
-
 
 <div class="clear"></div>
-
-</div>
-
 
 
  <div class="col-xs-10 col-xs-offset-1">
 
  <h1 class="title pull-left">Comments</h1>
-
-
-<!-- Button trigger modal --> 
-
 
 </div>
 
@@ -92,8 +78,8 @@
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4 class="modal-title" id="myModalLabel">Add a Comment</h4>
       </div>
+      <%= simple_form_for @comment, :url => place_comments_path(@place) do |f| %>
       <div class="modal-body">
-        <%= simple_form_for @comment, :url => place_comments_path(@place) do |f| %>
             <%= f.input :message %>
             <%= f.input :rating, :as => :select, :collection => Comment::RATINGS %>
       </div>
@@ -127,8 +113,8 @@
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4 class="modal-title" id="myPhotoModalLabel">Add a Photo</h4>
       </div>
+      <%= simple_form_for @photo, :url => place_photos_path(@place) do |f| %>
       <div class="modal-body">
-        <%= simple_form_for @photo, :url => place_photos_path(@place) do |f| %>
             <%= f.input :picture %>
             <%= f.input :caption %>
       </div>
@@ -149,6 +135,7 @@
   <br />
   <div class="center">
   <%= photo.caption %>
+  </div>
   </div>
 <% end %>
 
