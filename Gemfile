@@ -17,6 +17,9 @@ gem 'pg'
 #devise - user authentication
 gem 'devise', '>=3.2.4'
 
+#factorygirl for testing
+gem 'factory_girl_rails', '~> 4.0'
+
 #geocoder - maps integration
 gem 'geocoder'
 
