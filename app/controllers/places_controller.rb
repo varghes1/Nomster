@@ -4,10 +4,6 @@ class PlacesController < ApplicationController
 		@places= Place.all.page params[:page]
 	end
 
-	def new
-		@place = Place.new
-	end
-
 	def create
 		@place = current_user.places.create(place_params)
   		if @place.valid?
