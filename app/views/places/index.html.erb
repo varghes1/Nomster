@@ -4,7 +4,7 @@
 
 <div class="clr"/>
 
-<div id="map"></div>
+<div id="map">
 
   <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
   <script type="text/javascript">
@@ -39,10 +39,4 @@
       })(marker, i));
     }
   </script>
-
-  <div class="booyah-box">
-
-  <% @places.each do |place| %>
-  <%= place.name %>
-  <% end %>
-  </div>
+</div>

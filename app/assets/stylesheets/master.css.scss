@@ -58,8 +58,12 @@ body {
 }
 
 #map {
-        height: 500px;
-      }
+  height: 600px;
+}
+
+#map2 {
+  height: 300px;
+}
 
 #indexbox {
   position: absolute; 
@@ -74,10 +78,6 @@ body {
   border: 1px solid #ccc;
   border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;  
   border-radius: 10px;
-}
-
-#canvas {
-  height: 300px;
 }
 
 .clear {

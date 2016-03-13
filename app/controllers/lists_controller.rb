@@ -1,7 +1,7 @@
 class ListsController < ApplicationController
 
   def show
-    @place = Place.new
+    @place = Place.find(params[:id])
   end
 
 end

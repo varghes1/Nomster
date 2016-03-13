@@ -16,7 +16,7 @@
 		function initMap() {
   			var myLatLng = {lat: <%= @place.latitude %>, lng: <%= @place.longitude %> };
 
-  			var map = new google.maps.Map(document.getElementById('map'), {
+  			var map = new google.maps.Map(document.getElementById('map2'), {
     			zoom: 12,
     		center: myLatLng
   			});
@@ -34,7 +34,7 @@
         src="https://maps.googleapis.com/maps/api/js?signed_in=true&callback=initMap"></script>
 </style>
 
-<div id="map"></div>
+<div id="map2"></div>
 
 <% end %>
 

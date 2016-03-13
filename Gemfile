@@ -49,6 +49,9 @@ gem 'puma'
 gem 'puma-heroku'
 gem 'foreman'
 
+#Looking for erros
+gem 'pry'
+
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
